@@ -1,0 +1,89 @@
+* { padding: 0; margin: 0; font-family: 'Times New Roman', Times, serif; font-weight: lighter;}
+
+body {
+    background-color: #CBEFB6 !important;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #595358;
+    color: white;
+    height: 60px;
+    text-align: left;
+}
+
+main {
+    height: calc(100vh - 100px);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #595358;
+    height: 25px;
+    width: 100% !important;
+    margin: 0;
+}
+
+.nav_text {
+    font-family: Garamond, serif;
+    font-size: 40px !important;
+    color: #acacac !important;
+    margin-top: -0.4em;
+}
+
+.active_page {
+    color: white !important;
+}
+
+#home_main_container {
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 15px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#home_title {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-family: Garamond, serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#home_desc {
+    font-size: 1.7em;
+    line-height: 1.3em;
+}
+
+#main_form {
+    overflow-y: auto;
+    margin: 20px;
+}
+
+#form_head {
+    font-family: Garamond, serif;
+    font-size: 3em;
+}
+
+#home_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}

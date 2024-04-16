@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card {
+    width: 250px;
+    height: 460px !important;
+    background-color: white;
+    margin: 20px;
+}
+
+.rec_title {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.rec_list {
+    line-height: 1.4;
+}
+
+.rec_desc {
+    text-align: justify;
+    line-height: 1.3;
+}
